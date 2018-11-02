@@ -23,8 +23,9 @@ footer {
     line-height: 24px;
     outline: none;
     vertical-align: middle;
-    margin-left: 20px;
+    margin-left: 0px;
     align-items: center;
+    
 }
 
 
@@ -43,6 +44,8 @@ footer {
 
 li {
     display: inline-block;
+    vertical-align: middle;
+    
 }
 
 .apps_icon {
@@ -58,5 +61,42 @@ li {
 }
 
 .button {
-    margin: 10px;
+    background-color: white;
+    border: none;
+    color: grey;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 11px 4px;
+    cursor: pointer;
+}
+.search-button {
+    background-color: white;
+    border: none;
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 11px 4px;
+    cursor: pointer;
+    min-width: 54px;
+    padding: 0 16px;
+}
+
+.links{
+    text-decoration: none;
+    opacity: 0.55;
+}
+
+.links:hover{
+    text-decoration: underline;
+    opacity: 0.85;
+}
+
+#foot {
+    
+    background-color: rgb(192, 182, 182)
 }
