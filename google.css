@@ -1,0 +1,58 @@
+body {
+	font-family: Lato, sans-serif;
+	margin: 0;
+}
+
+main {
+    margin: 170px auto;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    float: left;
+    list-style-type: none;
+    display: inline-block;
+    line-height: 24px;
+    outline: none;
+    vertical-align: middle;
+    margin-left: 20px;
+    align-items: center;
+}
+
+
+
+
+.navbar {
+    float: right;
+    list-style-type: none;
+    display: inline-block;
+    line-height: 24px;
+    outline: none;
+    vertical-align: middle;
+    margin-right: 20px;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+}
+
+.apps_icon {
+        width: 25px;
+        height: auto;
+        opacity: .6;
+        margin: 10px;
+}
+#logo {
+	width: auto;
+	margin: auto;
+	text-align: center;
+}
